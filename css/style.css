@@ -24,7 +24,7 @@ ul li a:hover{
     color:red;
     background: white;
 }
-.HOME{
+.home{
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
@@ -45,7 +45,7 @@ ul li a:hover{
     height: auto;
     padding: 3rem 2rem;
     text-align: center; 
-    box-shadow:0 .2rem .5rem rosybrown;
+    box-shadow:0 .2rem .5rem black;
     border-radius: 2rem;
     background-color: rgb(236, 219, 188);
 }
@@ -76,4 +76,15 @@ ul li a:hover{
     margin: 2rem 0;
     padding: .5rem;
     background-color: tomato;
+}
+.title{
+    text-align: center;
+
+}
+.picture{
+    height: 300px;
+    width: 400px;
+}
+.pic{
+    height: 300px;
 }
