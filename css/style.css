@@ -156,6 +156,7 @@ ul li a:hover{
 .pizza-contact-col input,
 .pizza-contact-col textarea{
     width: 70%;
-    padding: 1rem;
+    padding: .7rem;
+    margin-bottom: 1.2rem;
 }
 
