@@ -32,5 +32,8 @@ ul li a:hover{
     align-items: center;
     height: 600px;
     color: white;
-    line-height: 1.5cm;
+    
+}
+.center{
+    text-align: center;
 }
