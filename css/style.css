@@ -141,10 +141,20 @@ ul li a:hover{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-}
-.pizza-contact-col{
-    margin: 2rem;
-    flex: 1 1 20rem;
     text-align: center;
 }
+.pizza-contact-col img{
+    width: 70%;
+    height: auto;
+    border-radius: 1rem;
+}
+.pizza-contact .pizza-contact-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pizza-contact-col input,
+.pizza-contact-col textarea{
+    width: 70%;
+}
+
