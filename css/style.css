@@ -72,3 +72,6 @@ ul li a:hover{
         transform: translateY(-5rem);
     }
 }
+.about-content .button{
+    margin: 2rem 0;
+}
