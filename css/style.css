@@ -144,9 +144,10 @@ ul li a:hover{
     text-align: center;
 }
 .pizza-contact-col img{
-    width: 70%;
-    height: auto;
+    width: 100%;
+    height: 100%;
     border-radius: 1rem;
+    margin: 1rem;
 }
 .pizza-contact .pizza-contact-row{
     display: flex;
@@ -158,5 +159,8 @@ ul li a:hover{
     width: 70%;
     padding: .7rem;
     margin-bottom: 1.2rem;
+    border: none;
+    cursor: pointer;
+
 }
 
