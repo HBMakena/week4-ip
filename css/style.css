@@ -41,4 +41,5 @@ ul li a:hover{
 }
 .about > about-content{
     width: 100px;
+    height: auto;
 }
