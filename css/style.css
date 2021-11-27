@@ -23,6 +23,9 @@ ul li a{
 ul li a:hover{
     color:red;
     background: white;
-    
+}
+.HOME{
+    display: flex;
+    flex-direction: column;
 }
 
