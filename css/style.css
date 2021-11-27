@@ -143,3 +143,8 @@ ul li a:hover{
     justify-content: center;
     align-items: center;
 }
+.pizza-contact-col{
+    margin: 2rem;
+    flex: 1 1 20rem;
+    text-align: center;
+}
