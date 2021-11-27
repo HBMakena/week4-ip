@@ -34,6 +34,11 @@ ul li a:hover{
     color: white;
     
 }
-.center{
-    text-align: center;
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about > about-content{
+    width: 100px;
 }
