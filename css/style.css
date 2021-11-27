@@ -76,6 +76,10 @@ ul li a:hover{
     margin: 2rem 0;
     padding: .5rem;
     background-color: tomato;
+
+}
+.product{
+    padding-top: 4rem;
 }
 .product .title{
     text-align: center;
@@ -129,4 +133,7 @@ ul li a:hover{
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+}
+.contact{
+    padding-top: 8.5rem;
 }
