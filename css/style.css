@@ -9,3 +9,7 @@
     margin: 2px 10px;
     height: 70px;
 }
+ul{
+    display: flex;
+    list-style: none;
+}
