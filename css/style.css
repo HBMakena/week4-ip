@@ -86,17 +86,20 @@ ul li a:hover{
     width: 400px;
     margin: 1.5rem;
     border-radius: 1rem;
+    box-shadow: 0 .3rem .6rem red;
 }
 .pic{
     width: 400px;
     margin: 1.5rem;
     border-radius: 1rem;
+    box-shadow: 0 .3rem .6rem red;
 }
 .deluxe{
     height: 300px;
     width: 400px;
     margin: 1.5rem;
     border-radius: 1rem;
+    box-shadow: 0 .3rem .6rem red;
 }
 
 .pizza-product .inner-pizza-row{
