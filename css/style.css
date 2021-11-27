@@ -77,8 +77,9 @@ ul li a:hover{
     padding: .5rem;
     background-color: tomato;
 }
-.title{
+.product .title{
     text-align: center;
+    font-size: 60px;
 
 }
 .picture{
@@ -95,6 +96,27 @@ ul li a:hover{
     box-shadow: 0 .3rem .6rem red;
 }
 .deluxe{
+    height: 300px;
+    width: 400px;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem .6rem red;
+}
+.pepperoni{
+    height: 300px;
+    width: 400px;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem .6rem red;
+}
+.cheese{
+    height: 300px;
+    width: 400px;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem .6rem red;
+}
+.boerewors{
     height: 300px;
     width: 400px;
     margin: 1.5rem;
