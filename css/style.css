@@ -3,10 +3,10 @@
     align-items: center;
 }
 .logo{
-    margin: 2px 4px;
+    margin: 2px 3px;
 }
 .logo img{
-    margin: 2px 10px;
+    margin: 2px 7px;
     height: 70px;
 }
 ul{
@@ -30,5 +30,7 @@ ul li a:hover{
     padding: 3px 200px;
     justify-content: center;
     align-items: center;
+    height: 600px;
+    color: white;
+    line-height: 1.5cm;
 }
-
