@@ -39,7 +39,14 @@ ul li a:hover{
     justify-content: space-between;
     align-items: center;
 }
-.about > about-content{
-    width: 100px;
+.about .about-content{
+    height: auto;
+    padding: 3rem 6rem;
+    text-align: center;
+    box-shadow:0 .2rem .5rem rosybrown;
+    border-radius: 2rem;
+}
+.about .image{
+    width: 500px;
     height: auto;
 }
