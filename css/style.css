@@ -19,5 +19,10 @@ ul li{
 ul li a{
     text-decoration: none;
     padding: 8px 22px;
-
 }
+ul li a:hover{
+    color:red;
+    background: white;
+    
+}
+
