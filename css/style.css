@@ -84,7 +84,21 @@ ul li a:hover{
 .picture{
     height: 300px;
     width: 400px;
+    margin: 1.5rem;
 }
 .pic{
+    width: 400px;
+    margin: 1.5rem;
+}
+.deluxe{
     height: 300px;
+    width: 400px;
+    margin: 1.5rem;
+}
+
+.pizza-product .inner-pizza-row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
