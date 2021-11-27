@@ -137,3 +137,9 @@ ul li a:hover{
 .contact{
     padding-top: 8.5rem;
 }
+.pizza-contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
