@@ -12,22 +12,20 @@ $(document).ready(function(){
         }
     })
 });
-const sizeSelect = document.getElementById("size");
-const crustSelect = document.getElementById("crust");
-const toppingsSelect = document.getElementById("toppings");
-const numberSelect = document.getElementById("number");
-const deliverySelect = document.getElementById("delivery");
+$(document).ready(function(){
+    $(".you").click(function(){
+        $(".about").hide();
+        $(".product").hide();
+        $(".service").hide();
+        $(".contact").hide();
+        $(".home").show();
+    });
+    $(".you").click(function(){
+        $(".home").show();
+        $(".about").show();
+        $(".product").show();
+        $(".service").show();
+        $(".contact").show();
 
-const size = ["Large", "Medium", "Small"];
-const crust = ["Crispy", "Stuffed", "Glutten-free"];
-const toppings = ["Deluxe", "Hawaiian", "Boerewors", "Pepperoni", "Peri peri", "Cheese Burger"];
-const delivery = ["Yes", "No"];
-
-(function populateSize(){
-    for(let i = 0; i < size.length; i++){
-        const option = document.createElement("option");
-        option.textContent = size[i];
-        sizeSelect.appendChild(option);
-    }
-    sizeSelect.value = "Large";
-})();
+    });
+});
