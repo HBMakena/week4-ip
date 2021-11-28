@@ -167,5 +167,10 @@ ul li a:hover{
     width: 50%;
     background-color: black;
 }
-
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
