@@ -11,11 +11,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <script
-      src="https://code.jquery.com/jquery-3.6.0.js"
-      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
     <title>week4-ip</title>
   </head>
@@ -134,7 +130,7 @@
               <option value="boerewors">Boerewors</option>
               <option value="pepperoni">Pepperoni</option>
               <option value="periperi">Periperi</option>
-              <option value="cheese-burger">Cheese-burger</option>
+              <option value="cheeseBurger">Cheese-burger</option>
             </select>
           </span>
           <span>
@@ -146,18 +142,17 @@
               <option value="3">3</option>
             </select>
           </span>
-          <span>
-            <label for="delivery">Delivery:</label>
-            <select name="delivery" id="delivery">
-              <option value="delivery">Delivery</option>
-              <option value="yes">Yes</option>
-              <option value="no">No</option>
-            </select>
-          </span>
-          <button>Order Here</button>
+          <div class="order">
+            <button type="submit" onclick="myOrder()">Order</button>
+          </div>
         </form>
       </div>
     </section>
+    <div class="delivery">
+      <h5>Would you like it to be delivered?</h5>
+      <button onclick="delivery()" id="yes">yes</button>
+      <button id="no">no</button>
+    </div>
     <footer class="contact">
         <div class="pizza-contact">
             <div class="pizza-contact-row">

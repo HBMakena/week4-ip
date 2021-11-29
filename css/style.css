@@ -208,10 +208,14 @@ form span{
     margin: .5rem;
     box-shadow: 0 .2rem .4rem peachpuff;
 }
-#delivery{
-    width: 100%;
-    height: 2rem;
+
+.delivery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#no{
     margin: .5rem;
-    box-shadow: 0 .2rem .4rem peachpuff;
 }
 
